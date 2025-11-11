@@ -24,5 +24,5 @@ HOW TO RUN:
 4. Follow the interactive menu to explore the dataset.
 
 AUTHOR:
-Sruti Behera
+Sruti
 https://github.com/Sruti2104
