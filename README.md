@@ -20,7 +20,7 @@ HOW TO RUN:
 2. Install Pandas if not already installed:
    pip install pandas
 3. Run the Python script:
-   python netflix_analysis_input.py
+   python netflix_eda.py
 4. Follow the interactive menu to explore the dataset.
 
 AUTHOR:
