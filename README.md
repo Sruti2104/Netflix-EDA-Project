@@ -7,7 +7,7 @@ Users can explore the dataset dynamically by:
 4. Searching for a Movie or TV Show by title
 The project demonstrates data analysis, manipulation, and interactive exploration using Python and Pandas.
 
-TOOLS & tECHNOLOGIES:
+TOOLS & TECHNOLOGIES:
 1. Python
 2. Pandas
 
