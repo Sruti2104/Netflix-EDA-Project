@@ -26,7 +26,7 @@ HOW TO RUN:
 2. Install the required libraries:
    pip install pandas scikit-learn
 3. Run the Python script:
-   python netflix_eda.ipynb
+   python netflix_eda.py
 4. Follow the interactive menu to explore the dataset.
 
 
