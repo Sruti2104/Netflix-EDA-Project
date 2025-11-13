@@ -5,7 +5,7 @@ Users can explore the dataset dynamically by:
 2. Listing titles released in a specific year
 3. Counting content by country
 4. Searching for a Movie or TV Show by title
-In addition to data exploration, the project now includes a Logistic Regression model that predicts whether a given title is a Movie or a TV Show based on its features.
+In addition to data exploration, the project now includes a Logistic Regression model that predicts whether a given title is a Movie or a TV Show based on its features. 
 This demonstrates both data analysis and machine learning implementation using Python.
 
 TOOLS & TECHNOLOGIES:
