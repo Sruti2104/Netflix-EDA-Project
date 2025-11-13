@@ -48,20 +48,16 @@ df.dropna(inplace=True)
 df['duration'] = df['duration'].str.replace(' min', '').str.replace(' Season', '').str.replace('s', '')
 df['duration'] = pd.to_numeric(df['duration'], errors='coerce')
 df.dropna(subset=['duration'], inplace=True)
-
 le = LabelEncoder()
 df['country'] = le.fit_transform(df['country'].astype(str))
 df['rating'] = le.fit_transform(df['rating'].astype(str))
 df['listed_in'] = le.fit_transform(df['listed_in'].astype(str))
 df['description'] = le.fit_transform(df['description'].astype(str))
-
 X = df[['release_year', 'duration', 'country', 'rating', 'listed_in', 'description']]
 y = df['type'].map({'Movie': 0, 'TV Show': 1})
-
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 model = LogisticRegression(max_iter=200)
 model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
-
 print("\nACCURACY:", accuracy_score(y_test, y_pred))
 print("\nCLASSIFICATION REPORT:\n", classification_report(y_test, y_pred))
